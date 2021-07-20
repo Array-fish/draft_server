@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "draft_server"
+version = "0.1.0"
+description = ""
+authors = ["array_fish <uekusa_hideaki@yahoo.co.jp>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Django = "^3.2.5"
+numpy = "^1.21.0"
+pandas = "^1.3.0"
+djangorestframework = "^3.12.4"
+django-filter = "^2.4.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
